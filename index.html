@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Combate - RED SUCKS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+
+    <header class="max-w-6xl mx-auto mb-8 text-center border-b border-slate-700 pb-6">
+        <h1 class="text-4xl font-extrabold tracking-wider text-red-500 uppercase mb-2">Red Sucks Guide [cite: 1, 4, 5]</h1>
+        <p class="text-slate-400 text-sm md:text-base">Estrategias y rotaciones optimizadas por regiones para enfrentar a Red y Líderes[cite: 7, 30, 51, 64, 81].</p>
+    </header>
+
+    <nav class="max-w-6xl mx-auto mb-8 flex flex-wrap gap-2 justify-center">
+        <button onclick="switchTab('kanto')" id="btn-kanto" class="tab-btn bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded font-bold transition">KANTO [cite: 7]</button>
+        <button onclick="switchTab('teselia')" id="btn-teselia" class="tab-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded font-bold transition">TESELIA [cite: 30]</button>
+        <button onclick="switchTab('hoenn')" id="btn-hoenn" class="tab-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded font-bold transition">HOENN [cite: 51]</button>
+        <button onclick="switchTab('johto')" id="btn-johto" class="tab-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded font-bold transition">JOHTO [cite: 64]</button>
+        <button onclick="switchTab('sinnoh')" id="btn-sinnoh" class="tab-btn bg-slate-800 hover:bg-slate-700 text-slate-300 px-4 py-2 rounded font-bold transition">SINNOH [cite: 81]</button>
+        <button onclick="switchTab('team')" id="btn-team" class="tab-btn bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded font-bold transition">NUESTRO EQUIPO [cite: 119]</button>
+    </nav>
+
+    <main class="max-w-6xl mx-auto">
+
+        <section id="kanto" class="tab-content active space-y-6">
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
+                <h2 class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2">Rival: KANTO [cite: 7]</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
+                    <div class="border-l-4 border-orange-500 pl-2"><strong>CHARIZARD:</strong> Lanzallamas, Tajo Aéreo, Día Soleado [cite: 8]</div>
+                    <div class="border-l-4 border-purple-400 pl-2"><strong>ESPEON:</strong> Bola Sombra, Psíquico, Deseo [cite: 8]</div>
+                    <div class="border-l-4 border-green-500 pl-2"><strong>VENUSAUR:</strong> Meteorobola, Bomba Lodo, Pantalla Luz [cite: 9]</div>
+                    <div class="border-l-4 border-blue-500 pl-2"><strong>BLASTOISE:</strong> Salpicar, Llovizna [cite: 9]</div>
+                    <div class="border-l-4 border-amber-600 pl-2"><strong>SNORLAX:</strong> Golpe Cuerpo, Terremoto, Descanso, Reflejo [cite: 10]</div>
+                    <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, Maquinación [cite: 10]</div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 1 [cite: 16]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>CHARIZARD</strong> pegarle y sacrificar Espeon (Pantalla Luz). Si cambia a Espeon tirar Psíquico. Entrar con Honchkrow GOLPE BAJO. Frente a Blastoise dos GOLPE BAJO. GOLPE BAJO a Pikachu / Charizard. FUERZA BRUTA a Snorlax. GOLPE BAJO a Venusaur y luego Salamence VUELO[cite: 17].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 2 [cite: 18]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>SNORLAX</strong> / Reflejo / Psíquico (x2). Entrar con Salamence / Danza Dragón / VUELO. Si te saca Blastoise: Danza Dragón / Garra Dragón (x2) / Terremoto a Pikachu / Garra Dragón a Chari, Espeon y Snorlax (si tiene más de la mitad de vida tirar Vuelo) / Vuelo a Venusaur[cite: 19].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 3 [cite: 22]</span>
+                    <div class="mt-3 text-sm text-slate-300 space-y-2">
+                        <p class="font-semibold text-amber-400">LUEGO DE BOOSTEAR CON HONCH[cite: 20]:</p>
+                        <ul class="list-disc list-inside space-y-1 text-slate-300">
+                            <li>Vuelo si no tiene sol[cite: 21].</li>
+                            <li>Si tiene sol y estás a +1: GOLPE BAJO[cite: 21].</li>
+                            <li>Si estás a +2: FUERZA BRUTA / GOLPE BAJO[cite: 23, 24].</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 4 [cite: 26]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>PIKACHU</strong> cambiar a Garchomp / Terremoto. Si te saca Charizard cambiar y sacrificar a Accelgor / Poder Oculto Hielo. Entra con Honch / GOLPE BAJO. Frente a Blastoise GOLPE BAJO (x2). Luego ver los movimientos al boostear Honch[cite: 25].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 md:col-span-2">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 5 [cite: 28]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Frente a <strong>BLASTOISE</strong> tirar Psíquico y sacrificar para entrar con Honch / GOLPE BAJO dos veces. Frente a Charizard GOLPE BAJO. Salamence Danza Dragón / Garra Dragón / VUELO a Venusaur. Frente a Snorlax GARRA DRAGÓN / Accelgor con sacrificio / Garchomp (Terremoto a Espeon y Pikachu)[cite: 27].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 md:col-span-2">
+                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso Extra: Frente a Espeon</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Frente a <strong>ESPEON</strong> / Pantalla Luz / Reflejo / Psíquico. Entrar con Salamence / Danza Dragón / Garra Dragón. Si te saca Snorlax: tirar Vuelo / si usa Descanso, Vuelo hasta derrotarlo / si te mata, entrar con Honchkrow para rematar con Tajo Umbrío (revisar % de vida de Snorlax antes de pegarle). Luego frente a Blastoise GOLPE BAJO (x2). Frente a Pikachu GOLPE BAJO y a Chari. GOLPE BAJO a Venusaur (si resiste, rematar con movimiento eficaz)[cite: 29].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="teselia" class="tab-content space-y-6">
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
+                <h2 class="text-2xl font-bold text-sky-400 mb-4">Rival: TESELIA [cite: 30]</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
+                    <div class="border-l-4 border-cyan-500 pl-2"><strong>SAMUROTT:</strong> Surf, Rayo Hielo, Bloqueo [cite: 31]</div>
+                    <div class="border-l-4 border-amber-700 pl-2"><strong>EXCADRILL:</strong> Tijera X, Terremoto, Cabeza de Hierro, Tormenta Arena [cite: 32]</div>
+                    <div class="border-l-4 border-red-500 pl-2"><strong>EMBOAR:</strong> Envite Ígneo, Rugido [cite: 32]</div>
+                    <div class="border-l-4 border-indigo-500 pl-2"><strong>HYDREIGON:</strong> Cometa Draco, Ida y Vuelta, Llamarada, Despejar [cite: 33]</div>
+                    <div class="border-l-4 border-green-400 pl-2"><strong>SERPERIOR:</strong> Lluevehojas, Drenadoras, Pulso Dragón, Sustituto [cite: 33]</div>
+                    <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, Poder Oculto, Maquinación [cite: 33]</div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 1 [cite: 34]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>SERPERIOR</strong> meter Pantalla Luz y Reflejo, luego en turno limpio con Accelgor tirar ZUMBIDO. Cambiará a Emboar u otro. Si no es Salamence, cambiar a Salamence / tirar dos Danza Dragón / Terremoto / Garra Dragón a Samurott e Hydreigon / Terremoto a Pikachu y Excadrill[cite: 35].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 2 [cite: 36]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>HYDREIGON</strong> / Pantalla Luz / Reflejo / Sacrificar frente a Pikachu. Accelgor Zumbido. Frente a Emboar, si saca a otro que no sea Salamence, cambiar a Salamence[cite: 37]. Si saca a Salamence tirar Danza Dragón (x2) y Garra Dragón frente a Hydreigon / Garra Dragón a Samurott[cite: 38].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 3 [cite: 39]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>EXCADRILL</strong> / Cambiar consecutivamente a Ferro / Honch / Ferro / Honch / Ferro (se mata solo con Casco Dentado). Frente a Emboar u otro, sacrificar a Ferro. Tirar Espeon con Reflejo / Bostezo / Entrar con Salamence / dos Danza Dragón / Terremoto. Contra Samurott e Hydreigon usar Garra Dragón / Pikachu Terremoto / Serperior VUELO y Garra[cite: 40].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 4 [cite: 41]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>SAMUROTT</strong> con Espeon / Pantalla Luz y Reflejo / luego Psíquico. Si sale Hydreigon: Sacrificar / Bostezo. Si saca Serperior: Zumbido de Accelgor. Si cambia a Emboar y no está Salamence, sacrificar a Accelgor. Entrar con Salamence / Danza Dragón (x2) / Terremoto a Emboar, Pikachu y Excadrill / Garra Dragón a Hydreigon[cite: 42].
+                    </p>
+                </div>
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 md:col-span-2">
+                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 5 [cite: 43]</span>
+                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                        Si sale <strong>PIKACHU</strong>: T1 Cambiar a Garchomp / T2 Terremoto / T3 Cambiar a Espeon (si sobrevive tirar Pantalla Luz y Reflejo). Si cambia a Serperior, sacrificar Espeon / Accelgor Zumbido. Frente a Emboar si saca otro, sacrificar a Accelgor. Entrar con Salamence / Danza Dragón (x2) / Terremoto a Emboar y Excadrill / Garra Dragón a Samurott e Hydreigon[cite: 44].
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-slate-900 p-4 rounded-xl border border-dashed border-slate-700 text-sm space-y-2">
+                <p class="font-bold text-amber-400 uppercase tracking-wider">Notas Importantes para Teselia[cite: 45]:</p>
+                <ul class="list-disc list-inside space-y-1 text-slate-400">
+                    <li>Accelgor solo sirve para eliminar a Serperior o Hydreigon, luego usar de sacrificio limpio para Salamence[cite: 46].</li>
+                    <li>Con vida completa: Danza Dragón y Garra Dragón. Si es el último Pokémon, golpear directamente[cite: 47].</li>
+                    <li>Con Reflejo activo: Usar Danza Dragón (x2) y Terremoto[cite: 48].</li>
+                    <li>Si no te dejan boostear con Salamence, guardar siempre para Excadrill haciendo pivot entre Honchkrow y Ferrothorn[cite: 50].</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="hoenn" class="tab-content space-y-6">
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
+                <h2 class="text-2xl font-bold text-emerald-400 mb-4">Rival: HOENN [cite: 51]</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
+                    <div class="border-l-4 border-blue-400 pl-2"><strong>SWAMPERT:</strong> Terremoto, Puño Hielo, Escaldar, Trampa Rocas [cite: 52]</div>
+                    <div class="border-l-4 border-orange-500 pl-2"><strong>BLAZIKEN:</strong> Envite Ígneo, Agilidad [cite: 53]</div>
+                    <div class="border-l-4 border-indigo-400 pl-2"><strong>SALAMENCE:</strong> Garra Dragón, Colmillo Ígneo, Danza Dragón [cite: 54]</div>
+                    <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, Carga [cite: 54]</div>
+                    <div class="border-l-4 border-gray-500 pl-2"><strong>METAGROSS:</strong> Descanso, Puño Hielo, Terremoto, Bloqueo [cite: 55]</div>
+                    <div class="border-l-4 border-green-500 pl-2"><strong>SCEPTILE:</strong> Pulso Dragón, Sustituto [cite: 55]</div>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950 px-2 py-1 rounded">Caso 1 [cite: 56]</span>
+                <p class="mt-3 text-sm text-slate-300 leading-relaxed">
+                    Si sale <strong>SWAMPERT</strong>: T1 Reflejo / T2 Pantalla Luz [cite: 57] / T3 Cambiar a Ferrothorn / T4 Latigazo (si Swampert quema a Ferro, tirar Latigazo otra vez). Debería sacar a Blaziken[cite: 58]. Sacrificar a Ferrothorn / Entrar con HONCHKROW / GOLPE BAJO[cite: 59, 61, 62, 63]. Frente a Metagross tirar Vuelo dos veces (asegurar los impactos) y Tajo Umbrío hasta derrotarlo[cite: 60].
+                </p>
+            </div>
+        </section>
+
+        <section id="johto" class="tab-content space-y-6">
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
+                <h2 class="text-2xl font-bold text-indigo-400 mb-4">Rival: JOHTO [cite: 64]</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
+                    <div class="border-l-4 border-purple-500 pl-2"><strong>GLISCOR:</strong> Terremoto, Respiro, Ida y Vuelta, Trampa Rocas [cite: 65]</div>
+                    <div class="border-l-4 border-amber-600 pl-2"><strong>TYRANITAR:</strong> Terremoto, Puño Hielo, Triturar, Onda Trueno [cite: 65]</div>
+                    <div class="border-l-4 border-red-500 pl-2"><strong>TYPHLOSION:</strong> Estallido, Avivar [cite: 66]</div>
+                    <div class="border-l-4 border-teal-500 pl-2"><strong>FERALIGATR:</strong> Puño Hielo, Danza Dragón [cite: 67]</div>
+                    <div class="border-l-4 border-green-500 pl-2"><strong>MEGANIUM:</strong> Drenadoras, Gigadrenado, Pantalla Luz [cite: 68]</div>
+                    <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, Agilidad [cite: 68]</div>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950 px-2 py-1 rounded">Caso 1 [cite: 69]</span>
+                <div class="mt-3 text-sm text-slate-300 grid md:grid-cols-2 gap-4">
+                    <ul class="space-y-1 font-mono text-emerald-400">
+                        <li>T1: Reflejo [cite: 70]</li>
+                        <li>T2: Cambiar a Ferrothorn [cite: 71]</li>
+                        <li>T3: Imagen [cite: 72]</li>
+                        <li>T4: Cambiar a Espeon [cite: 73]</li>
+                        <li>T5: Colocar Pantalla Luz [cite: 74]</li>
+                        <li>T6: Repetir ciclo hasta morir [cite: 75]</li>
+                    </ul>
+                    <div>
+                        <p class="font-semibold text-slate-200">Fase de Limpieza[cite: 76]:</p>
+                        <p class="text-xs text-slate-400 mb-2">Meter Salamence / Danza Dragón (x2) (+2 Atk / +2 Speed) y barrer con TERREMOTO o GARRA DRAGÓN[cite: 76, 77, 78, 79, 80].</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sinnoh" class="tab-content space-y-6">
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
+                <h2 class="text-2xl font-bold text-amber-500 mb-4">Rival: SINNOH [cite: 81]</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
+                    <div class="border-l-4 border-slate-400 pl-2"><strong>STARAPTOR:</strong> Pájaro Osado, A Bocajarro, Remolino [cite: 85]</div>
+                    <div class="border-l-4 border-cyan-600 pl-2"><strong>EMPOLEON:</strong> Rayo Hielo, Escaldar, Despejar [cite: 85]</div>
+                    <div class="border-l-4 border-emerald-700 pl-2"><strong>TORTERRA:</strong> Hoja Aguda, Roca Afilada, Terremoto, Reflejo [cite: 86]</div>
+                    <div class="border-l-4 border-orange-600 pl-2"><strong>INFERNAPE:</strong> A Bocajarro, Puño Fuego, Danza Espada (Banda Focus) [cite: 86, 100]</div>
+                    <div class="border-l-4 border-blue-600 pl-2"><strong>GARCHOMP:</strong> Carga Dragón, Terremoto, Afilagarras [cite: 86]</div>
+                    <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, PO Dragón, Sustituto [cite: 86]</div>
+                </div>
+                <p class="text-xs text-amber-400 mt-2 italic">[cite: 87, 99] Nota: Salamence es más lento que Garchomp, Infernape, Staraptor y Pikachu por defecto.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-950 px-2 py-1 rounded">Caso 1 [cite: 88]</span>
+                    <p class="mt-3 text-sm text-slate-300 text-xs leading-relaxed">
+                        Frente a <strong>INFERNAPE</strong>: Pantalla Luz (cambia a Empoleon) / Bostezo / Reflejo. Al dormir, cambiar a Salamence[cite: 89]. Si entra Torterra: VUELO[cite: 90, 107, 114]. Si Infernape cambia a Garchomp: Terremoto si pega Puño Trueno. Entrar con Salamence ante Empoleon: Terremoto hasta ganarle. Ante Staraptor: Sacrificar Espeon, meter Ferrothorn con Casco Dentado frente a Treparrocas[cite: 90, 106]. Frente a Garchomp: Honchkrow GOLPE BAJO / Accelgor ZUMBIDO[cite: 90].
+                        <br><strong class="text-yellow-400">Si saca Pikachu:</strong> Sacrificar Espeon -> Accelgor ZUMBIDO -> Sacrificar Garchomp -> Honch GOLPE BAJO -> Sacrificar Ferro/Sala -> Rematar con Golpe Bajo a Staraptor[cite: 91].
+                    </p>
+                </div>
+
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-950 px-2 py-1 rounded">Caso 2 [cite: 92]</span>
+                    <p class="mt-3 text-sm text-slate-300 text-xs leading-relaxed">
+                        Si inicia con <strong>PIKACHU</strong>: Cambiar a Garchomp Golpe Bis. Colocar Honchkrow GOLPE BAJO. GOLPE BAJO a Garchomp. Espeon Psíquico. Cambiar a Salamence / Vuelo hasta derrotar. Frente a Garchomp pivotar Espeon -> Ferrothorn -> Espeon Psíquico. Si cambia a Empoleon: Pantalla Luz / Bostezo / Reflejo -> Salamence TERREMOTO. Frente a Garchomp meter Ferro y sacrificar ante Infernape. Entrar Espeon con Psíquico y a Staraptor / Rematar con Accelgor[cite: 93].
+                    </p>
+                </div>
+
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-950 px-2 py-1 rounded">Caso 3 [cite: 94]</span>
+                    <p class="mt-3 text-sm text-slate-300 text-xs leading-relaxed">
+                        Si inicia con <strong>TORTERRA</strong>: Cambiar a Ferrothorn -> Cambiar a Salamence / Vuelo hasta debilitar. Si saca Staraptor, poner siempre en frente a Ferrothorn para dañarlo con el Casco Dentado. Entrar Espeon ante Empoleon: Reflejo / Bostezo / Pantalla Luz -> Salamence Terremoto. Contra Pikachu: Garchomp Golpe Bis -> Honch GOLPE BAJO. Si saca Garchomp: Espeon Psíquico e Infernape -> Finalizar con Accelgor[cite: 95].
+                    </p>
+                </div>
+
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-950 px-2 py-1 rounded">Caso 4 [cite: 96]</span>
+                    <p class="mt-3 text-sm text-slate-300 text-xs leading-relaxed">
+                        Si inicia con <strong>EMPOLEON</strong>: Pantalla Luz / Bostezo / Reflejo[cite: 97, 101, 102]. Cambiar a Salamence / Danza Dragón / Terremoto / Vuelo a Torterra / Garra Dragón frente a Infernape. Si cae Salamence: Honchkrow GOLPE BAJO. Frente a Pikachu: Garchomp Golpe Bis -> Honchkrow GOLPE BAJO. Contra Garchomp: GOLPE BAJO -> Rematar Espeon Psíquico y Staraptor junto al daño de Ferrothorn[cite: 97].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="tab-content space-y-6">
+            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
+                <h2 class="text-2xl font-bold text-emerald-400 mb-6 flex items-center justify-between">
+                    <span>NUESTRO EQUIPO COMPLETO [cite: 119]</span>
+                    <span class="text-xs text-slate-400 uppercase tracking-widest">Poképaste Specs</span>
+                </h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-slate-900 p-4 rounded-xl border border-purple-900/50 space-y-3">
+                        <div class="flex justify-between items-center border-b border-purple-900/30 pb-2">
+                            <span class="font-bold text-purple-400 text-lg">ESPEON [cite: 120]</span>
+                            <span class="text-xs bg-purple-950 px-2 py-0.5 rounded text-purple-300">Soporte [cite: 104]</span>
+                        </div>
+                        <div class="text-xs space-y-1 text-slate-400">
+                            <p><strong>Habilidad:</strong> Espejo Mágico [cite: 121]</p>
+                            <p><strong>Naturaleza:</strong> Miedosa [cite: 122]</p>
+                            <p><strong>IVs:</strong> 30 / 30 / 31 / 30+ / 31 [cite: 123]</p>
+                            <p><strong>EVs:</strong> 6 PS / 252 SpA / 252 Spe [cite: 124]</p>
+                            <p><strong>Objeto:</strong> Refleluz [cite: 125]</p>
+                        </div>
+                        <div class="bg-slate-950 p-2 rounded text-xs space-y-1 font-mono text-slate-300">
+                            <p>• Reflejo [cite: 127]</p>
+                            <p>• Pantalla Luz [cite: 128]</p>
+                            <p>• Bostezo <span class="text-purple-400">(Huevo)</span> [cite: 129]</p>
+                            <p>• Psíquico [cite: 130]</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 p-4 rounded-xl border border-blue-900/50 space-y-3">
+                        <div class="flex justify-between items-center border-b border-blue-900/30 pb-2">
+                            <span class="font-bold text-blue-400 text-lg">HONCHKROW [cite: 131]</span>
+                            <span class="text-xs bg-blue-950 px-2 py-0.5 rounded text-blue-300">Físico / Cleaner</span>
+                        </div>
+                        <div class="text-xs space-y-1 text-slate-400">
+                            <p><strong>Habilidad:</strong> Autoestima [cite: 132]</p>
+                            <p><strong>Naturaleza:</strong> Firme [cite: 133]</p>
+                            <p><strong>IVs:</strong> 30 / 31 / 25 / 25 / 31 [cite: 134]</p>
+                            <p><strong>EVs:</strong> 6 PS / 252 Atk / 252 Spe [cite: 135]</p>
+                            <p><strong>Objeto:</strong> Cinta Fuerte [cite: 136]</p>
+                        </div>
+                        <div class="bg-slate-950 p-2 rounded text-xs space-y-1 font-mono text-slate-300">
+                            <p class="text-amber-400">• Golpe Bajo (Max PP) [cite: 138]</p>
+                            <p>• Tajo Umbrío [cite: 139]</p>
+                            <p>• Vuelo [cite: 140]</p>
+                            <p>• Fuerza Bruta [cite: 141]</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 p-4 rounded-xl border border-indigo-900/50 space-y-3">
+                        <div class="flex justify-between items-center border-b border-indigo-900/30 pb-2">
+                            <span class="font-bold text-indigo-400 text-lg">SALAMENCE [cite: 142]</span>
+                            <span class="text-xs bg-indigo-950 px-2 py-0.5 rounded text-indigo-300">Sweeper Principal</span>
+                        </div>
+                        <div class="text-xs space-y-1 text-slate-400">
+                            <p><strong>Habilidad:</strong> Autoestima [cite: 143]</p>
+                            <p><strong>Naturaleza:</strong> Firme [cite: 144]</p>
+                            <p><strong>IVs:</strong> 30 / 31 / 25 / 30 / 30 [cite: 145]</p>
+                            <p><strong>EVs:</strong> 6 PS / 252 Atk / 252 Spe [cite: 146]</p>
+                            <p><strong>Objeto:</strong> Banda Focus [cite: 147]</p>
+                        </div>
+                        <div class="bg-slate-950 p-2 rounded text-xs space-y-1 font-mono text-slate-300">
+                            <p>• Terremoto [cite: 149]</p>
+                            <p class="text-emerald-400">• Danza Dragón [cite: 150]</p>
+                            <p>• Garra Dragón [cite: 151]</p>
+                            <p>• Vuelo [cite: 152]</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 p-4 rounded-xl border border-red-900/50 space-y-3">
+                        <div class="flex justify-between items-center border-b border-red-900/30 pb-2">
+                            <span class="font-bold text-red-400 text-lg">ACCELGOR [cite: 153]</span>
+                            <span class="text-xs bg-red-950 px-2 py-0.5 rounded text-red-300">Anti-Líder / Contingencia</span>
+                        </div>
+                        <div class="text-xs space-y-1 text-slate-400">
+                            <p><strong>Naturaleza:</strong> Modesta [cite: 154]</p>
+                            <p><strong>IVs:</strong> 50 / -- / 31 / 25+ / -- [cite: 155]</p>
+                            <p><strong>EVs:</strong> 6 PS / 252 SpA / 252 Spe [cite: 156]</p>
+                            <p><strong>Objeto:</strong> Tabla Bicho [cite: 156]</p>
+                        </div>
+                        <div class="bg-slate-950 p-2 rounded text-xs space-y-1 font-mono text-slate-300">
+                            <p>• Zumbido [cite: 157]</p>
+                            <p>• Bomba Lodo [cite: 158]</p>
+                            <p class="text-red-400">• Sacrificio [cite: 159]</p>
+                            <p>• Poder Oculto Hielo [cite: 160]</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 p-4 rounded-xl border border-amber-900/50 space-y-3">
+                        <div class="flex justify-between items-center border-b border-amber-900/30 pb-2">
+                            <span class="font-bold text-amber-500 text-lg">GARCHOMP [cite: 161]</span>
+                            <span class="text-xs bg-amber-950 px-2 py-0.5 rounded text-amber-300">Pañuelo Elegido [cite: 166]</span>
+                        </div>
+                        <div class="text-xs space-y-1 text-slate-400">
+                            <p><strong>Habilidad:</strong> Piel Tosca [cite: 162]</p>
+                            <p><strong>Naturaleza:</strong> Firme [cite: 163]</p>
+                            <p><strong>IVs:</strong> 30 / 31 / 30 / 30 / 31 [cite: 164]</p>
+                            <p><strong>EVs:</strong> 6 PS / 252 Atk / 252 Spe [cite: 165]</p>
+                            <p><strong>Objeto:</strong> Pañuelo Elegido [cite: 166]</p>
+                        </div>
+                        <div class="bg-slate-950 p-2 rounded text-xs space-y-1 font-mono text-slate-300">
+                            <p>• Terremoto [cite: 168]</p>
+                            <p>• Garra Dragón [cite: 169]</p>
+                            <p>• Colmillo Ígneo [cite: 170]</p>
+                            <p class="text-cyan-400">• Golpe Bis [cite: 171]</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-900 p-4 rounded-xl border border-emerald-900/50 space-y-3">
+                        <div class="flex justify-between items-center border-b border-emerald-900/30 pb-2">
+                            <span class="font-bold text-emerald-500 text-lg">FERROTHORN [cite: 172]</span>
+                            <span class="text-xs bg-emerald-950 px-2 py-0.5 rounded text-emerald-300">Defensivo / Pivot</span>
+                        </div>
+                        <div class="text-xs space-y-1 text-slate-400">
+                            <p><strong>Habilidad:</strong> Punta Acero [cite: 173]</p>
+                            <p><strong>Naturaleza:</strong> Plácida / Agitada / Cauta [cite: 174]</p>
+                            <p><strong>IVs:</strong> 30 / 25 / 30 / 30 [cite: 175]</p>
+                            <p><strong>EVs:</strong> 252 PS / 252 Def / 76 SpD [cite: 176]</p>
+                            <p><strong>Objeto:</strong> Casco Dentado [cite: 177]</p>
+                        </div>
+                        <div class="bg-slate-950 p-2 rounded text-xs space-y-1 font-mono text-slate-300">
+                            <p>• Imagen [cite: 179]</p>
+                            <p>• Latigazo [cite: 180]</p>
+                            <p>• Pin Misil [cite: 181]</p>
+                            <p class="text-red-400">• Treparrocas [cite: 182]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="max-w-6xl mx-auto mt-12 text-center text-xs text-slate-600 border-t border-slate-800 pt-4">
+        Guía interactiva basada en especificaciones de composición avanzada para contrarrestar equipos de Red[cite: 1, 87].
+    </footer>
+
+    <script>
+        function switchTab(regionId) {
+            // Esconder todas las secciones
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            // Remover estilos activos de todos los botones
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('bg-red-600', 'bg-sky-600', 'bg-emerald-600', 'bg-indigo-600', 'bg-amber-600', 'text-white');
+                btn.classList.add('bg-slate-800', 'text-slate-300');
+            });
+
+            // Activar pestaña seleccionada
+            document.getElementById(regionId).classList.add('active');
+            
+            // Asignar color dinámico al botón activo según sección
+            const currentBtn = document.getElementById('btn-' + regionId);
+            currentBtn.classList.remove('bg-slate-800', 'text-slate-300');
+            
+            if (regionId === 'kanto') currentBtn.classList.add('bg-red-600', 'text-white');
+            else if (regionId === 'teselia') currentBtn.classList.add('bg-sky-600', 'text-white');
+            else if (regionId === 'hoenn') currentBtn.classList.add('bg-emerald-600', 'text-white');
+            else if (regionId === 'johto') currentBtn.classList.add('bg-indigo-600', 'text-white');
+            else if (regionId === 'sinnoh') currentBtn.classList.add('bg-amber-600', 'text-white');
+            else if (regionId === 'team') currentBtn.classList.add('bg-emerald-600', 'text-white');
+        }
+    </script>
+</body>
+</html>
