@@ -36,13 +36,41 @@
 
         <!-- ================= KANTO ================= -->
         <section id="kanto" class="tab-content active space-y-6">
-            <!-- Imagen de la Región -->
             <div class="flex justify-center bg-slate-900 p-2 rounded-xl border border-slate-800 shadow-md">
                 <img src="image_5ea880.jpg" alt="Kanto Team" class="max-w-full h-auto rounded-lg shadow-lg">
             </div>
 
             <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
                 <h2 class="text-2xl font-bold text-red-400 mb-4 flex items-center gap-2">Rival: KANTO</h2>
+                
+                <!-- GRID DE GIFS ANIMADOS KANTO -->
+                <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 mb-6 bg-slate-950 p-4 rounded-xl border border-slate-900">
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="Charizard" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-orange-400 mt-1">CHARIZARD</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/196.gif" alt="Espeon" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-purple-400 mt-1">ESPEON</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/3.gif" alt="Venusaur" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-green-400 mt-1">VENUSAUR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/9.gif" alt="Blastoise" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-blue-400 mt-1">BLASTOISE</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif" alt="Snorlax" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-amber-600 mt-1">SNORLAX</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-yellow-400 mt-1">PIKACHU</span>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
                     <div class="border-l-4 border-orange-500 pl-2"><strong>CHARIZARD:</strong> Lanzallamas, Tajo Aéreo, Día Soleado</div>
                     <div class="border-l-4 border-purple-400 pl-2"><strong>ESPEON:</strong> Bola Sombra, Psíquico, Deseo</div>
@@ -66,41 +94,46 @@
                         Si sale <strong>SNORLAX</strong> / Reflejo / Psíquico (x2). Entrar con Salamence / Danza Dragón / VUELO. Si te saca Blastoise: Danza Dragón / Garra Dragón (x2) / Terremoto a Pikachu / Garra Dragón a Chari, Espeon y Snorlax (si tiene más de la mitad de vida tirar Vuelo) / Vuelo a Venusaur.
                     </p>
                 </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 3</span>
-                    <div class="mt-3 text-sm text-slate-300 space-y-2">
-                        <p class="font-semibold text-amber-400">LUEGO DE BOOSTEAR CON HONCH:</p>
-                        <ul class="list-disc list-inside space-y-1 text-slate-300">
-                            <li>Vuelo si no tiene sol.</li>
-                            <li>Si tiene sol y estás a +1: GOLPE BAJO.</li>
-                            <li>Si estás a +2: FUERZA BRUTA / GOLPE BAJO.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 4</span>
-                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                        Si sale <strong>PIKACHU</strong> cambiar a Garchomp / Terremoto. Si te saca Charizard cambiar y sacrificar a Accelgor / Poder Oculto Hielo. Entra con Honch / GOLPE BAJO. Frente a Blastoise GOLPE BAJO (x2). Luego ver los movimientos al boostear Honch.
-                    </p>
-                </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700 md:col-span-2">
-                    <span class="text-xs font-bold uppercase tracking-wider text-red-400 bg-red-950 px-2 py-1 rounded">Caso 5</span>
-                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                        Frente a <strong>BLASTOISE</strong> tirar Psíquico y sacrificar para entrar con Honch / GOLPE BAJO dos veces. Frente a Charizard GOLPE BAJO. Salamence Danza Dragón / Garra Dragón / VUELO a Venusaur. Frente a Snorlax GARRA DRAGÓN / Accelgor con sacrificio / Garchomp (Terremoto a Espeon y Pikachu).
-                    </p>
-                </div>
             </div>
         </section>
 
         <!-- ================= TESELIA ================= -->
         <section id="teselia" class="tab-content space-y-6">
-            <!-- Imagen de la Región -->
             <div class="flex justify-center bg-slate-900 p-2 rounded-xl border border-slate-800 shadow-md">
                 <img src="image_5ea556.jpg" alt="Teselia Team" class="max-w-full h-auto rounded-lg shadow-lg">
             </div>
 
             <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
                 <h2 class="text-2xl font-bold text-sky-400 mb-4">Rival: TESELIA</h2>
+                
+                <!-- GRID DE GIFS ANIMADOS TESELIA -->
+                <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 mb-6 bg-slate-950 p-4 rounded-xl border border-slate-900">
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/503.gif" alt="Samurott" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-cyan-500 mt-1">SAMUROTT</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/530.gif" alt="Excadrill" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-amber-700 mt-1">EXCADRILL</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/500.gif" alt="Emboar" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-red-500 mt-1">EMBOAR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/635.gif" alt="Hydreigon" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-indigo-500 mt-1">HYDREIGON</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/497.gif" alt="Serperior" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-green-400 mt-1">SERPERIOR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-yellow-400 mt-1">PIKACHU</span>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
                     <div class="border-l-4 border-cyan-500 pl-2"><strong>SAMUROTT:</strong> Surf, Rayo Hielo, Bloqueo</div>
                     <div class="border-l-4 border-amber-700 pl-2"><strong>EXCADRILL:</strong> Tijera X, Terremoto, Cabeza de Hierro, Tormenta Arena</div>
@@ -110,44 +143,45 @@
                     <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, Poder Oculto, Maquinación</div>
                 </div>
             </div>
-
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 1</span>
-                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                        Si sale <strong>SERPERIOR</strong> meter Pantalla Luz y Reflejo, luego en turno limpio con Accelgor tirar ZUMBIDO. Cambiará a Emboar u otro. Si no es Salamence, cambiar a Salamence / tirar dos Danza Dragón / Terremoto / Garra Dragón a Samurott e Hydreigon / Terremoto a Pikachu y Excadrill.
-                    </p>
-                </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 2</span>
-                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                        Si sale <strong>HYDREIGON</strong> / Pantalla Luz / Reflejo / Sacrificar frente a Pikachu. Accelgor Zumbido. Frente a Emboar, si saca a otro que no sea Salamence, cambiar a Salamence. Si saca a Salamence tirar Danza Dragón (x2) y Garra Dragón frente a Hydreigon / Garra Dragón a Samurott.
-                    </p>
-                </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 3</span>
-                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                        Si sale <strong>EXCADRILL</strong> / Cambiar consecutivamente a Ferro / Honch / Ferro / Honch / Ferro (se mata solo con Casco Dentado). Frente a Emboar u otro, sacrificar a Ferro. Tirar Espeon con Reflejo / Bostezo / Entrar con Salamence / dos Danza Dragón / Terremoto. Contra Samurott e Hydreigon usar Garra Dragón / Pikachu Terremoto / Serperior VUELO y Garra.
-                    </p>
-                </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-950 px-2 py-1 rounded">Caso 4</span>
-                    <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                        Si sale <strong>SAMUROTT</strong> con Espeon / Pantalla Luz y Reflejo / luego Psíquico. Si sale Hydreigon: Sacrificar / Bostezo. Si saca Serperior: Zumbido de Accelgor. Si cambia a Emboar y no está Salamence, sacrificar a Accelgor. Entrar con Salamence / Danza Dragón (x2) / Terremoto a Emboar, Pikachu y Excadrill / Garra Dragón a Hydreigon.
-                    </p>
-                </div>
-            </div>
         </section>
 
         <!-- ================= HOENN ================= -->
         <section id="hoenn" class="tab-content space-y-6">
-            <!-- Imagen de la Región -->
             <div class="flex justify-center bg-slate-900 p-2 rounded-xl border border-slate-800 shadow-md">
                 <img src="image_5ea81f.png" alt="Hoenn Team" class="max-w-full h-auto rounded-lg shadow-lg">
             </div>
 
             <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
                 <h2 class="text-2xl font-bold text-emerald-400 mb-4">Rival: HOENN</h2>
+                
+                <!-- GRID DE GIFS ANIMADOS HOENN -->
+                <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 mb-6 bg-slate-950 p-4 rounded-xl border border-slate-900">
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/260.gif" alt="Swampert" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-blue-400 mt-1">SWAMPERT</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/257.gif" alt="Blaziken" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-orange-500 mt-1">BLAZIKEN</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/373.gif" alt="Salamence" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-indigo-400 mt-1">SALAMENCE</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-yellow-400 mt-1">PIKACHU</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/376.gif" alt="Metagross" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-gray-500 mt-1">METAGROSS</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/254.gif" alt="Sceptile" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-green-500 mt-1">SCEPTILE</span>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
                     <div class="border-l-4 border-blue-400 pl-2"><strong>SWAMPERT:</strong> Terremoto, Puño Hielo, Escaldar, Trampa Rocas</div>
                     <div class="border-l-4 border-orange-500 pl-2"><strong>BLAZIKEN:</strong> Envite Ígneo, Agilidad</div>
@@ -157,24 +191,45 @@
                     <div class="border-l-4 border-green-500 pl-2"><strong>SCEPTILE:</strong> Pulso Dragón, Sustituto</div>
                 </div>
             </div>
-
-            <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                <span class="text-xs font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950 px-2 py-1 rounded">Caso 1</span>
-                <p class="mt-3 text-sm text-slate-300 leading-relaxed">
-                    Si sale <strong>SWAMPERT</strong>: T1 Reflejo / T2 Pantalla Luz / T3 Cambiar a Ferrothorn / T4 Latigazo (si Swampert quema a Ferro, tirar Latigazo otra vez). Debería sacar a Blaziken. Sacrificar a Ferrothorn / Entrar con HONCHKROW / GOLPE BAJO. Frente a Metagross tirar Vuelo dos veces (asegurar los impactos) y Tajo Umbrío hasta derrotarlo.
-                </p>
-            </div>
         </section>
 
         <!-- ================= JOHTO ================= -->
         <section id="johto" class="tab-content space-y-6">
-            <!-- Imagen de la Región -->
             <div class="flex justify-center bg-slate-900 p-2 rounded-xl border border-slate-800 shadow-md">
                 <img src="image_5ea840.jpg" alt="Johto Team" class="max-w-full h-auto rounded-lg shadow-lg">
             </div>
 
             <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
                 <h2 class="text-2xl font-bold text-indigo-400 mb-4">Rival: JOHTO</h2>
+                
+                <!-- GRID DE GIFS ANIMADOS JOHTO -->
+                <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 mb-6 bg-slate-950 p-4 rounded-xl border border-slate-900">
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/472.gif" alt="Gliscor" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-purple-500 mt-1">GLISCOR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/248.gif" alt="Tyranitar" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-amber-600 mt-1">TYRANITAR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/157.gif" alt="Typhlosion" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-red-500 mt-1">TYPHLOSION</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/160.gif" alt="Feraligatr" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-teal-500 mt-1">FERALIGATR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/154.gif" alt="Meganium" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-green-500 mt-1">MEGANIUM</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-yellow-400 mt-1">PIKACHU</span>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
                     <div class="border-l-4 border-purple-500 pl-2"><strong>GLISCOR:</strong> Terremoto, Respiro, Ida y Vuelta, Trampa Rocas</div>
                     <div class="border-l-4 border-amber-600 pl-2"><strong>TYRANITAR:</strong> Terremoto, Puño Hielo, Triturar, Onda Trueno</div>
@@ -184,35 +239,45 @@
                     <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, Agilidad</div>
                 </div>
             </div>
-
-            <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                <span class="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-950 px-2 py-1 rounded">Caso 1</span>
-                <div class="mt-3 text-sm text-slate-300 grid md:grid-cols-2 gap-4">
-                    <ul class="space-y-1 font-mono text-emerald-400">
-                        <li>T1: Reflejo</li>
-                        <li>T2: Cambiar a Ferrothorn</li>
-                        <li>T3: Imagen</li>
-                        <li>T4: Cambiar a Espeon</li>
-                        <li>T5: Colocar Pantalla Luz</li>
-                        <li>T6: Repetir ciclo hasta morir</li>
-                    </ul>
-                    <div>
-                        <p class="font-semibold text-slate-200">Fase de Limpieza:</p>
-                        <p class="text-xs text-slate-400 mb-2">Meter Salamence / Danza Dragón (x2) (+2 Atk / +2 Speed) y barrer con TERREMOTO o GARRA DRAGÓN.</p>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- ================= SINNOH ================= -->
         <section id="sinnoh" class="tab-content space-y-6">
-            <!-- Imagen de la Región -->
             <div class="flex justify-center bg-slate-900 p-2 rounded-xl border border-slate-800 shadow-md">
                 <img src="image_5ea860.jpg" alt="Sinnoh Team" class="max-w-full h-auto rounded-lg shadow-lg">
             </div>
 
             <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
                 <h2 class="text-2xl font-bold text-amber-500 mb-4">Rival: SINNOH</h2>
+                
+                <!-- GRID DE GIFS ANIMADOS SINNOH -->
+                <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 mb-6 bg-slate-950 p-4 rounded-xl border border-slate-900">
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/398.gif" alt="Staraptor" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-slate-400 mt-1">STARAPTOR</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/395.gif" alt="Empoleon" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-cyan-600 mt-1">EMPOLEON</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/389.gif" alt="Torterra" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-emerald-700 mt-1">TORTERRA</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/392.gif" alt="Infernape" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-orange-600 mt-1">INFERNAPE</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif" alt="Garchomp" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-blue-600 mt-1">GARCHOMP</span>
+                    </div>
+                    <div class="flex flex-col items-center p-2 bg-slate-900/50 rounded-lg border border-slate-800">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" alt="Pikachu" class="h-16 w-16 object-contain">
+                        <span class="text-[10px] font-bold text-yellow-400 mt-1">PIKACHU</span>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 text-xs bg-slate-900 p-4 rounded-lg">
                     <div class="border-l-4 border-slate-400 pl-2"><strong>STARAPTOR:</strong> Pájaro Osado, A Bocajarro, Remolino</div>
                     <div class="border-l-4 border-cyan-600 pl-2"><strong>EMPOLEON:</strong> Rayo Hielo, Escaldar, Despejar</div>
@@ -220,61 +285,6 @@
                     <div class="border-l-4 border-orange-600 pl-2"><strong>INFERNAPE:</strong> A Bocajarro, Puño Fuego, Danza Espada</div>
                     <div class="border-l-4 border-blue-600 pl-2"><strong>GARCHOMP:</strong> Carga Dragón, Terremoto, Afilagarras</div>
                     <div class="border-l-4 border-yellow-400 pl-2"><strong>PIKACHU:</strong> Rayo, PO Dragón, Sustituto</div>
-                </div>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-950 px-2 py-1 rounded">Caso 1</span>
-                    <p class="mt-3 text-sm text-slate-300 text-xs leading-relaxed">
-                        Frente a <strong>INFERNAPE</strong>: Pantalla Luz (cambia a Empoleon) / Bostezo / Reflejo. Al dormir, cambiar a Salamence. Si entra Torterra: VUELO. Si Infernape cambia a Garchomp: Terremoto si pega Puño Trueno. Entrar con Salamence ante Empoleon: Terremoto hasta ganarle. Ante Staraptor: Sacrificar Espeon, meter Ferrothorn con Casco Dentado. Frente a Garchomp: Honchkrow GOLPE BAJO / Accelgor ZUMBIDO.
-                    </p>
-                </div>
-                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
-                    <span class="text-xs font-bold uppercase tracking-wider text-amber-500 bg-amber-950 px-2 py-1 rounded">Caso 4</span>
-                    <p class="mt-3 text-sm text-slate-300 text-xs leading-relaxed">
-                        Si inicia con <strong>EMPOLEON</strong>: Pantalla Luz / Bostezo / Reflejo. Cambiar a Salamence / Danza Dragón / Terremoto / Vuelo a Torterra / Garra Dragón frente a Infernape. Si cae Salamence: Honchkrow GOLPE BAJO. Frente a Pikachu: Garchomp Golpe Bis -> Honchkrow GOLPE BAJO.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= NUESTRO EQUIPO (POKEPASTE) ================= -->
-        <section id="team" class="tab-content space-y-6">
-            <div class="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-xl">
-                <h2 class="text-2xl font-bold text-emerald-400 mb-6 flex items-center justify-between">
-                    <span>NUESTRO EQUIPO COMPLETO</span>
-                </h2>
-
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- ESPEON -->
-                    <div class="bg-slate-900 p-4 rounded-xl border border-purple-900/50 space-y-3">
-                        <span class="font-bold text-purple-400 text-lg block border-b border-purple-900/30 pb-2">ESPEON</span>
-                        <div class="text-xs space-y-1 text-slate-400">
-                            <p><strong>Habilidad:</strong> Espejo Mágico</p>
-                            <p><strong>Naturaleza:</strong> Miedosa</p>
-                            <p><strong>IVs:</strong> 30 / 30 / 31 / 30+ / 31</p>
-                            <p><strong>Objeto:</strong> Refleluz</p>
-                        </div>
-                    </div>
-                    <!-- SALAMENCE -->
-                    <div class="bg-slate-900 p-4 rounded-xl border border-indigo-900/50 space-y-3">
-                        <span class="font-bold text-indigo-400 text-lg block border-b border-indigo-900/30 pb-2">SALAMENCE</span>
-                        <div class="text-xs space-y-1 text-slate-400">
-                            <p><strong>Habilidad:</strong> Autoestima</p>
-                            <p><strong>Naturaleza:</strong> Firme</p>
-                            <p><strong>Objeto:</strong> Banda Focus</p>
-                        </div>
-                    </div>
-                    <!-- HONCHKROW -->
-                    <div class="bg-slate-900 p-4 rounded-xl border border-blue-900/50 space-y-3">
-                        <span class="font-bold text-blue-400 text-lg block border-b border-blue-900/30 pb-2">HONCHKROW</span>
-                        <div class="text-xs space-y-1 text-slate-400">
-                            <p><strong>Habilidad:</strong> Autoestima</p>
-                            <p><strong>Naturaleza:</strong> Firme</p>
-                            <p><strong>Objeto:</strong> Cinta Fuerte</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
